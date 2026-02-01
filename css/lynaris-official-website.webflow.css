@@ -1,6 +1,6 @@
 @font-face {
   font-family: Neue Montreal;
-  src: url('../fonts/Neue-Montreal.zip') format("undefined");
+  src: url("../fonts/Neue-Montreal.zip") format("undefined");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: Neue Montreal;
-  src: url('../fonts/Neue-Montreal.zip') format("undefined");
+  src: url("../fonts/Neue-Montreal.zip") format("undefined");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -129,8 +129,14 @@
 .cta-1 {
   color: #fafafa;
   background-color: #fff;
-  background-image: linear-gradient(42deg, #044831, #00774f 28%, #044831 60% 79%, #058359);
-  border: .1px solid #ffffff52;
+  background-image: linear-gradient(
+    42deg,
+    #044831,
+    #00774f 28%,
+    #044831 60% 79%,
+    #058359
+  );
+  border: 0.1px solid #ffffff52;
   border-radius: 20px;
   margin-left: 10px;
   margin-right: 10px;
@@ -141,7 +147,14 @@
 
 .cta-1:hover {
   background-color: #ffffff54;
-  background-image: linear-gradient(193deg, #00271a, #003121 28%, #044831 60%, #00301f 79%, #000e09);
+  background-image: linear-gradient(
+    193deg,
+    #00271a,
+    #003121 28%,
+    #044831 60%,
+    #00301f 79%,
+    #000e09
+  );
 }
 
 .cta-1.hero {
@@ -161,7 +174,9 @@
   padding-right: 101px;
 }
 
-.cta-1.footercta, .cta-1.map-cta1, .cta-1.solutio {
+.cta-1.footercta,
+.cta-1.map-cta1,
+.cta-1.solutio {
   margin-left: 0;
 }
 
@@ -175,8 +190,15 @@
 .cta-3 {
   color: #fafafa;
   background-color: #ffffff12;
-  background-image: linear-gradient(297deg, #fff3, #777d7c33 14%, #040e0d33 31% 52%, #81868633 73%, #fff3);
-  border: .1px dotted #999;
+  background-image: linear-gradient(
+    297deg,
+    #fff3,
+    #777d7c33 14%,
+    #040e0d33 31% 52%,
+    #81868633 73%,
+    #fff3
+  );
+  border: 0.1px dotted #999;
   border-radius: 20px;
   flex: none;
   padding-left: 23px;
@@ -265,7 +287,10 @@
 
 .toggle-navlink {
   color: #fafafa;
-  font-family: Neue Montreal, Arial, sans-serif;
+  font-family:
+    Neue Montreal,
+    Arial,
+    sans-serif;
   font-size: 28px;
   font-weight: 500;
   text-decoration: none;
@@ -276,20 +301,20 @@
   background-color: var(--\<unknown\|relume-variable-neutral-shade-7\>);
   color: var(--\<unknown\|relume-variable-neutral-white\>);
   text-align: center;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   text-decoration: none;
 }
 
 .button.is-navbar3-button {
   margin-left: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .navbar3_dropdown-toggle {
-  grid-column-gap: .5rem;
+  grid-column-gap: 0.5rem;
   align-items: center;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
 }
 
@@ -334,14 +359,14 @@
   color: var(--\<unknown\|relume-variable-neutral-white\>);
   background-color: #000;
   margin-left: 1rem;
-  padding: .5rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   display: none;
 }
 
 .navbar3_link {
   margin-left: 0;
   margin-right: 0;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .navbar3_link.w--current {
@@ -359,8 +384,11 @@
 }
 
 .navbar3_component {
-  border-bottom: 0px solid var(--\<unknown\|relume-variable-color-scheme-1-background\>);
-  background-color: var(--\<unknown\|relume-variable-color-scheme-1-background\>);
+  border-bottom: 0px solid
+    var(--\<unknown\|relume-variable-color-scheme-1-background\>);
+  background-color: var(
+    --\<unknown\|relume-variable-color-scheme-1-background\>
+  );
   color: var(--\<unknown\|relume-variable-color-scheme-1-text\>);
   align-items: center;
   width: 100%;
@@ -371,7 +399,7 @@
 }
 
 .navbar3_dropdown-link {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .navbar3_dropdown-link.w--current {
@@ -388,9 +416,12 @@
 }
 
 .navbar3_dropdown-list.w--open {
-  border: var(--\<unknown\|relume-variable-border-width\>) solid var(--\<unknown\|relume-variable-color-scheme-1-border\>);
+  border: var(--\<unknown\|relume-variable-border-width\>) solid
+    var(--\<unknown\|relume-variable-color-scheme-1-border\>);
   border-radius: var(--\<unknown\|relume-variable-radius-small\>);
-  background-color: var(--\<unknown\|relume-variable-color-scheme-1-background\>);
+  background-color: var(
+    --\<unknown\|relume-variable-color-scheme-1-background\>
+  );
   padding: 8px;
   position: absolute;
 }
@@ -481,7 +512,10 @@
 
 .h1 {
   color: #fafafa;
-  font-family: Neue Montreal, Arial, sans-serif;
+  font-family:
+    Neue Montreal,
+    Arial,
+    sans-serif;
   font-size: 47px;
 }
 
@@ -522,7 +556,10 @@
   -webkit-text-stroke-color: #06d756;
   margin-top: 5px;
   margin-right: 0;
-  font-family: Neue Montreal, Arial, sans-serif;
+  font-family:
+    Neue Montreal,
+    Arial,
+    sans-serif;
   font-weight: 500;
 }
 
@@ -637,7 +674,8 @@
   -webkit-text-stroke-color: #06d756;
 }
 
-.text-span-2, .text-span-3 {
+.text-span-2,
+.text-span-3 {
   color: #06d756;
 }
 
@@ -865,12 +903,12 @@
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
   display: block;
 }
 
 .footer-link:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .footer-03 {
@@ -922,7 +960,15 @@
   grid-row-gap: 2px;
   -webkit-text-stroke-color: #fff;
   background-color: #ffffff05;
-  background-image: linear-gradient(243deg, #fff3, #777d7c2e 14%, #040e0d33 39% 54%, #81868638 75%, #acacac17 93%, #fff);
+  background-image: linear-gradient(
+    243deg,
+    #fff3,
+    #777d7c2e 14%,
+    #040e0d33 39% 54%,
+    #81868638 75%,
+    #acacac17 93%,
+    #fff
+  );
   border: 1px dotted #ffffff54;
   border-radius: 20px;
   flex-flow: column;
@@ -1210,7 +1256,7 @@
 .tarifs-cards {
   color: #fff;
   background-color: #0a1516;
-  border: .5px solid #fff3;
+  border: 0.5px solid #fff3;
   border-radius: 20px;
   width: 275px;
   min-width: 275px;
@@ -1435,7 +1481,12 @@
   max-width: 25em;
 }
 
-.body-5, .body-6, .body-7, .body-8, .body-9, .body-10 {
+.body-5,
+.body-6,
+.body-7,
+.body-8,
+.body-9,
+.body-10 {
   background-color: #030709;
   font-family: Poppins, sans-serif;
 }
@@ -1448,6 +1499,158 @@
 .footer-en {
   padding: 132px 3%;
   display: flex;
+}
+
+.custom-early-access-section {
+  padding: 180px 40px 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.custom-h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.custom-title-ea {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.custom-intro-text {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.custom-form-group {
+  margin-bottom: 20px;
+}
+
+.custom-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.custom-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff36;
+  border-radius: 20px;
+  background-color: #0d191c;
+  color: #f5f5f5;
+}
+
+.custom-radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.custom-radio-input {
+  margin-right: 10px;
+}
+
+.custom-radio-label {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.custom-trust-message {
+  font-size: 14px;
+  color: #d6d6d6;
+  margin-bottom: 20px;
+}
+
+.custom-cta-button {
+  background-color: #06d756;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-cta-button:hover {
+  background-color: #04b94a;
+}
+
+.custom-confirmation-message {
+  font-size: 16px;
+  color: #06d756;
+  text-align: center;
+}
+
+/* Labels des champs */
+.custom-label {
+  color: #f5f5f5; /* Blanc */
+}
+
+/* Titres */
+.custom-h1,
+.custom-title-ea {
+  color: #f5f5f5; /* Blanc */
+}
+
+/* Descriptions et phrases de texte */
+.custom-intro-text,
+.custom-trust-message,
+.custom-radio-label {
+  color: #ffffff; /* Blanc */
+}
+
+/* Confirmation message */
+.custom-confirmation-message {
+  color: #ffffff; /* Blanc */
+}
+
+/* ...existing code... */
+
+/* Fix: mobile navbar unclickable — ensure header and toggle are on top and decorative blocks don't block pointer events */
+@media screen and (max-width: 991px) {
+  .header-section,
+  .header-section .navbar-container,
+  .navbar-toggle-mobile,
+  .logo-combined {
+    position: relative;
+    z-index: 99999 !important;
+    pointer-events: auto !important;
+  }
+
+  /* mobile menu panel should also sit above page content */
+  .toggle-mobile-container,
+  .navbar3_menu,
+  .navbar3_menu.w--open {
+    z-index: 99998 !important;
+    pointer-events: auto !important;
+  }
+
+  /* decorative absolute divs often overlay header — disable their pointer events on small screens */
+  .div-block,
+  .div-block._2,
+  .div-block._2.side,
+  .div-block._2.side.mid,
+  .body-z1 {
+    pointer-events: none !important;
+  }
+
+  /* ensure form section stays under header */
+  .custom-early-access-section {
+    z-index: 1 !important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1536,7 +1739,7 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    padding: .75rem 2rem .75rem 0;
+    padding: 0.75rem 2rem 0.75rem 0;
     position: relative;
   }
 
@@ -1550,7 +1753,7 @@
   }
 
   .navbar3_menu-button {
-    margin-left: -.5rem;
+    margin-left: -0.5rem;
     padding: 0;
   }
 
@@ -1573,7 +1776,9 @@
 
   .navbar3_menu {
     z-index: 1;
-    background-color: var(--\<unknown\|relume-variable-color-scheme-1-background\>);
+    background-color: var(
+      --\<unknown\|relume-variable-color-scheme-1-background\>
+    );
     -webkit-text-fill-color: inherit;
     background-clip: border-box;
     border-right: 1px solid #000;
@@ -1585,7 +1790,7 @@
     padding-bottom: 6.5rem;
     padding-left: 5vw;
     padding-right: 5vw;
-    transition: height .5s;
+    transition: height 0.5s;
     display: block;
     position: absolute;
     inset: 0% auto 0% 0%;
@@ -1609,7 +1814,7 @@
   }
 
   .navbar3_link {
-    padding: .75rem 0;
+    padding: 0.75rem 0;
     font-size: 1.125rem;
     position: static;
   }
@@ -1628,7 +1833,7 @@
     align-items: center;
     width: 48px;
     height: 48px;
-    margin-right: -.5px;
+    margin-right: -0.5px;
     padding-bottom: 0;
     padding-right: 0;
     display: flex;
@@ -1644,7 +1849,7 @@
   }
 
   .navbar3_dropdown-link {
-    padding: .75rem 0 .75rem 5%;
+    padding: 0.75rem 0 0.75rem 5%;
   }
 
   .navbar3_menu-background {
@@ -1702,7 +1907,8 @@
     margin-top: 100px;
   }
 
-  .hero-section.accueil, .hero-section.home {
+  .hero-section.accueil,
+  .hero-section.home {
     margin-right: 0;
   }
 
@@ -1714,7 +1920,8 @@
     margin-left: 0;
   }
 
-  .container-left-text.accueil, .container-left-text.home {
+  .container-left-text.accueil,
+  .container-left-text.home {
     padding-right: 0;
   }
 
@@ -1826,7 +2033,10 @@
     color: #f8f8f8;
     text-align: center;
     margin-bottom: 17px;
-    font-family: Neue Montreal, Arial, sans-serif;
+    font-family:
+      Neue Montreal,
+      Arial,
+      sans-serif;
     font-size: 29px;
     font-weight: 500;
   }
@@ -2025,7 +2235,7 @@
   }
 
   .button.is-navbar3-button {
-    padding: .25rem 1rem;
+    padding: 0.25rem 1rem;
   }
 
   .navbar3_menu {
@@ -2219,7 +2429,9 @@
     text-align: center;
   }
 
-  .solution-cards, .solution-cards.right, .solution-cards.left {
+  .solution-cards,
+  .solution-cards.right,
+  .solution-cards.left {
     justify-content: center;
     align-items: center;
   }
@@ -2356,7 +2568,8 @@
     overflow: visible;
   }
 
-  .cta-3.herosection, .cta-3.tarifs-ctacompensed {
+  .cta-3.herosection,
+  .cta-3.tarifs-ctacompensed {
     padding-left: 43px;
     padding-right: 43px;
   }
@@ -2721,11 +2934,15 @@
   justify-self: end;
 }
 
-#w-node-_1fb1b14d-069d-1e84-9a51-eb1408b75934-8f82bc7b, #w-node-_2135fb7d-e6fc-366a-cf3c-5424e6804e1e-8f82bc7b, #w-node-f5b17c37-1d37-585d-247b-a3bb7c12b697-8f82bc7b, #w-node-_5916db37-9274-d604-3189-7b46c914f3ba-8f82bc7b {
+#w-node-_1fb1b14d-069d-1e84-9a51-eb1408b75934-8f82bc7b,
+#w-node-_2135fb7d-e6fc-366a-cf3c-5424e6804e1e-8f82bc7b,
+#w-node-f5b17c37-1d37-585d-247b-a3bb7c12b697-8f82bc7b,
+#w-node-_5916db37-9274-d604-3189-7b46c914f3ba-8f82bc7b {
   justify-self: auto;
 }
 
-#w-node-_3fbd5962-2cbe-db24-2006-317692e483b8-49ba8c1f, #w-node-_2ff4f536-3596-a671-2456-f090faed7e9c-219abc04 {
+#w-node-_3fbd5962-2cbe-db24-2006-317692e483b8-49ba8c1f,
+#w-node-_2ff4f536-3596-a671-2456-f090faed7e9c-219abc04 {
   justify-self: end;
 }
 
@@ -2737,7 +2954,10 @@
   justify-self: end;
 }
 
-#w-node-_2ff4f536-3596-a671-2456-f090faed7edb-219abc04, #w-node-_2ff4f536-3596-a671-2456-f090faed7ee6-219abc04, #w-node-_2ff4f536-3596-a671-2456-f090faed7ef1-219abc04, #w-node-_2ff4f536-3596-a671-2456-f090faed7efc-219abc04 {
+#w-node-_2ff4f536-3596-a671-2456-f090faed7edb-219abc04,
+#w-node-_2ff4f536-3596-a671-2456-f090faed7ee6-219abc04,
+#w-node-_2ff4f536-3596-a671-2456-f090faed7ef1-219abc04,
+#w-node-_2ff4f536-3596-a671-2456-f090faed7efc-219abc04 {
   justify-self: auto;
 }
 
@@ -2766,22 +2986,22 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_0da5dc56-b7da-e283-ea14-7556f883950e-8f82bc7b, #w-node-_2ff4f536-3596-a671-2456-f090faed7eb5-219abc04 {
+  #w-node-_0da5dc56-b7da-e283-ea14-7556f883950e-8f82bc7b,
+  #w-node-_2ff4f536-3596-a671-2456-f090faed7eb5-219abc04 {
     align-self: stretch;
   }
 }
 
-
 @font-face {
-  font-family: 'Neue Montreal';
-  src: url('../fonts/Neue-Montreal.zip') format('undefined');
+  font-family: "Neue Montreal";
+  src: url("../fonts/Neue-Montreal.zip") format("undefined");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Neue Montreal';
-  src: url('../fonts/Neue-Montreal.zip') format('undefined');
+  font-family: "Neue Montreal";
+  src: url("../fonts/Neue-Montreal.zip") format("undefined");
   font-weight: 700;
   font-style: normal;
   font-display: swap;

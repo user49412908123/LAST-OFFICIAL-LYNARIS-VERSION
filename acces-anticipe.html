@@ -152,7 +152,7 @@
               <a href="tarifs.html" class="toggle-navlink">3. TARIFS</a>
             </div>
             <div class="text-number-toggle">
-              <a href="#" class="toggle-navlink">4. À PROPOS</a>
+              <a href="a-propos.html" class="toggle-navlink">4. À PROPOS</a>
             </div>
             <div class="cta-container-navbar-toggle">
               <a
@@ -181,6 +181,199 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="custom-early-access-section">
+        <div class="custom-container">
+          <h1 class="custom-h1">
+            Accédez à une estimation personnalisée de votre prix et de vos gains
+          </h1>
+          <h2 class="custom-title-ea">
+            En quelques questions, nous analysons votre magasin et vous
+            fournissons une prévision fiable de vos économies, de vos gains
+            potentiels et du coût réel de la solution Lynaris.
+          </h2>
+          <p class="custom-intro-text">
+            👉 Vous recevrez un rapport détaillé par email, puis nous vous
+            confirmerons les résultats par téléphone.
+          </p>
+
+          <form id="early-access-form" class="custom-form">
+            <div class="custom-form-group">
+              <label for="first-name" class="custom-label">Prénom</label>
+              <input
+                type="text"
+                id="first-name"
+                name="first_name"
+                class="custom-input"
+                placeholder="Ex : Marie"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="last-name" class="custom-label">Nom</label>
+              <input
+                type="text"
+                id="last-name"
+                name="last_name"
+                class="custom-input"
+                placeholder="Ex : Dupont"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="company-name" class="custom-label"
+                >Nom de la société</label
+              >
+              <input
+                type="text"
+                id="company-name"
+                name="company_name"
+                class="custom-input"
+                placeholder="Nom légal ou commercial"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="company-number" class="custom-label"
+                >Numéro d’entreprise</label
+              >
+              <input
+                type="text"
+                id="company-number"
+                name="company_number"
+                class="custom-input"
+                placeholder="Pour vérification et conformité"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="email" class="custom-label"
+                >Email professionnel</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="custom-input"
+                placeholder="Le rapport vous sera envoyé à cette adresse"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="phone" class="custom-label">Téléphone</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="custom-input"
+                placeholder="Pour confirmer et expliquer les résultats (appel court)"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="sector" class="custom-label"
+                >Secteur d’activité</label
+              >
+              <input
+                type="text"
+                id="sector"
+                name="sector"
+                class="custom-input"
+                placeholder="Ex : pharmacie, cosmétique, retail spécialisé…"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="store-size" class="custom-label"
+                >Surface du magasin (m²)</label
+              >
+              <input
+                type="number"
+                id="store-size"
+                name="store_size"
+                class="custom-input"
+                placeholder="Surface accessible aux clients"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="camera-count" class="custom-label"
+                >Nombre de caméras actuelles</label
+              >
+              <input
+                type="number"
+                id="camera-count"
+                name="camera_count"
+                class="custom-input"
+                placeholder="Toutes marques confondues"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label class="custom-label">État des caméras</label>
+              <div class="custom-radio-group">
+                <input
+                  type="radio"
+                  id="cameras-functional"
+                  name="camera_status"
+                  value="functional"
+                  class="custom-radio-input"
+                  required
+                />
+                <label for="cameras-functional" class="custom-radio-label">
+                  Toutes les caméras sont fonctionnelles
+                </label>
+              </div>
+              <div class="custom-radio-group">
+                <input
+                  type="radio"
+                  id="cameras-defective"
+                  name="camera_status"
+                  value="defective"
+                  class="custom-radio-input"
+                />
+                <label for="cameras-defective" class="custom-radio-label">
+                  Certaines caméras sont défaillantes / obsolètes
+                </label>
+              </div>
+            </div>
+            <div class="custom-form-group">
+              <label for="employee-count" class="custom-label"
+                >Nombre d’employés en magasin</label
+              >
+              <input
+                type="number"
+                id="employee-count"
+                name="employee_count"
+                class="custom-input"
+                placeholder="Présents sur une semaine type"
+                required
+              />
+            </div>
+            <div class="custom-form-group">
+              <label for="store-count" class="custom-label"
+                >Nombre de magasins à équiper</label
+              >
+              <input
+                type="number"
+                id="store-count"
+                name="store_count"
+                class="custom-input"
+                placeholder="1 ou plusieurs points de vente"
+                required
+              />
+            </div>
+            <p class="custom-trust-message">
+              🔒 Vos données sont strictement confidentielles. Aucune
+              information n’est partagée ou exploitée en dehors de l’analyse
+              demandée.
+            </p>
+            <button type="submit" class="cta-1 footercta w-button w--current">
+              Recevoir mon rapport personnalisé
+            </button>
+          </form>
+          <p class="custom-confirmation-message" style="display: none"></p>
         </div>
       </section>
       <section id="6" class="footer-03">
@@ -229,7 +422,7 @@
         </div>
       </section>
     </div>
-    <script src="/js/acces-anticipe.js" type="javascript/text"></script>
+    <script src="js/acces-anticipe.js" defer></script>
     <script
       src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=696febf1e1887c738f82bc63"
       type="text/javascript"
