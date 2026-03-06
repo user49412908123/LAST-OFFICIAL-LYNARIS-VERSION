@@ -1,0 +1,8 @@
+node_modules
+.wrangler
+.git
+.gitignore
+package.json
+package-lock.json
+README.md
+.DS_Store
