@@ -587,55 +587,6 @@
   margin-top: 0;
   margin-right: 0;
 }
-
-.div-block {
-  filter: blur(100px);
-  background-color: #00ff7b1f;
-  border-radius: 100px;
-  width: 440px;
-  height: 290px;
-  margin-left: 0;
-  position: absolute;
-  bottom: 885px;
-  left: 40vw;
-}
-
-.div-block._2 {
-  background-color: #00ff7b0d;
-  width: 770px;
-  height: 510px;
-  top: 57px;
-  bottom: -312px;
-  left: -25.8vw;
-}
-
-.div-block._2.side {
-  background-color: #00ff7b0a;
-  inset: 621px -73vw 0 50vw;
-}
-
-.div-block._2.side.mid {
-  top: 1017px;
-  left: -18.9vw;
-  right: 0;
-}
-
-.div-block._2.side.mid.body-z1-color-box {
-  top: 1826px;
-  left: 35.2vw;
-  right: -47.2vw;
-}
-
-.div-block._2.side.mid.body-z1-color-box.body-z1-color-box-1 {
-  top: 2732px;
-  left: -28.2vw;
-}
-
-.div-block._2.side.mid.body-z1-color-box.body-z1-color-box-1.body-z1-color-box-2 {
-  top: 3600px;
-  left: 53.5vw;
-}
-
 .second-section {
   flex-flow: row;
   justify-content: space-between;
@@ -1639,13 +1590,6 @@
   }
 
   /* decorative absolute divs often overlay header — disable their pointer events on small screens */
-  .div-block,
-  .div-block._2,
-  .div-block._2.side,
-  .div-block._2.side.mid,
-  .body-z1 {
-    pointer-events: none !important;
-  }
 
   /* ensure form section stays under header */
   .custom-early-access-section {
@@ -1993,17 +1937,6 @@
     position: relative;
     top: 0;
     right: 0;
-  }
-
-  .div-block._2.side.mid.body-z1-color-box.body-z1-color-box-1.body-z1-color-box-2 {
-    top: 3945px;
-    left: -15.2vw;
-  }
-
-  .div-block._2.side.mid.body-z1-color-box.body-z1-color-box-1.body-z1-color-box-2.body-z1-color-box-mobile-1 {
-    background-color: #00ff7b14;
-    top: 4751px;
-    left: 11vw;
   }
 
   .second-section {
